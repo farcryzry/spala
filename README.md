@@ -6,7 +6,8 @@ Course Project for CMPE 239 - Allstate Purchase Prediction Challenge (Kaggle com
 https://www.kaggle.com/c/allstate-purchase-prediction-challenge
 
 
-Preprocessing
+
+Preprocessing (R)
 =====
 1.	Filter out purchase records. (record_type = 1)
 2.	Remove columns: shopping_pt/record_type/day/time/state/location/c_previous/cost
@@ -22,4 +23,8 @@ https://github.com/farcryzry/spala/blob/master/data/train.csv
 
 Output Data:
 https://github.com/farcryzry/spala/tree/master/data/preprocessed%20by%20r
+
+Predection
+=====
+
 

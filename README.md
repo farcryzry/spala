@@ -24,7 +24,10 @@ https://github.com/farcryzry/spala/blob/master/data/train.csv
 Output Data:
 https://github.com/farcryzry/spala/tree/master/data/preprocessed%20by%20r
 
-Predection
+Preprocessing (Java)
+=====
+
+Predection (Spark)
 =====
 
 

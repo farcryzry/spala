@@ -6,7 +6,8 @@ Course Project for CMPE 239 - Allstate Purchase Prediction Challenge (Kaggle com
 https://www.kaggle.com/c/allstate-purchase-prediction-challenge
 
 Data Visulization
-+++
+=====
+https://github.com/farcryzry/spala/commit/cb126c86a4efe3c4ace6d824d889c3b915cf2563
 
 
 

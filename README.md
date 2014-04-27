@@ -14,3 +14,12 @@ Preprocessing
 4.	Remove outlier: car_age
 5.	Handle missing value:  Risk_factor (use 0)  Duration_previous (use mean value)
 
+Code:
+https://github.com/farcryzry/spala/blob/master/pre-processiong/DataHandler.R
+
+Input Data:
+https://github.com/farcryzry/spala/blob/master/data/train.csv
+
+Output Data:
+https://github.com/farcryzry/spala/tree/master/data/preprocessed%20by%20r
+

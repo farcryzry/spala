@@ -1,0 +1,230 @@
+
+rank=1, iterations=20, lambda_=0.01, alpha=0.01
+A total: 97009, correct: 59582, accuracy: 61.4190435939%
+B total: 97009, correct: 50824, accuracy: 52.3910152666%
+C total: 97009, correct: 37963, accuracy: 39.1334824604%
+D total: 97009, correct: 62707, accuracy: 64.6403941902%
+E total: 97009, correct: 52132, accuracy: 53.7393437722%
+F total: 97009, correct: 36169, accuracy: 37.28416951%
+G total: 97009, correct: 37778, accuracy: 38.9427785051%
+Aggregate all options: total: 97009, correct: 929, accuracy: 0.957643105279%
+
+rank=3, iterations=20, lambda_=0.01, alpha=0.01
+A total: 97009, correct: 65656, accuracy: 67.680318321%
+B total: 97009, correct: 68711, accuracy: 70.829510664%
+C total: 97009, correct: 56595, accuracy: 58.3399478399%
+D total: 97009, correct: 71484, accuracy: 73.6880083291%
+E total: 97009, correct: 72757, accuracy: 75.000257708%
+F total: 97009, correct: 50852, accuracy: 52.419878568%
+G total: 97009, correct: 45290, accuracy: 46.6863899226%
+Aggregate all options: total: 97009, correct: 5255, accuracy: 5.4170231628%
+
+rank=10, iterations=20, lambda_=0.01, alpha=0.01
+A total: 97009, correct: 74910, accuracy: 77.2196394149%
+B total: 97009, correct: 78029, accuracy: 80.4348050181%
+C total: 97009, correct: 62196, accuracy: 64.1136389407%
+D total: 97009, correct: 77905, accuracy: 80.3069818264%
+E total: 97009, correct: 75923, accuracy: 78.2638724242%
+F total: 97009, correct: 75273, accuracy: 77.5938315002%
+G total: 97009, correct: 68060, accuracy: 70.1584389077%
+Aggregate all options: total: 97009, correct: 19637, accuracy: 20.2424517313%
+
+rank=20, iterations=20, lambda_=0.01, alpha=0.01
+A total: 97009, correct: 74614, accuracy: 76.9145130864%
+B total: 97009, correct: 79410, accuracy: 81.8583842736%
+C total: 97009, correct: 74019, accuracy: 76.3011679329%
+D total: 97009, correct: 79978, accuracy: 82.443896958%
+E total: 97009, correct: 78663, accuracy: 81.0883526271%
+F total: 97009, correct: 73486, accuracy: 75.7517343752%
+G total: 97009, correct: 68838, accuracy: 70.9604263522%
+Aggregate all options: total: 97009, correct: 25978, accuracy: 26.7789586533%
+
+rank=20, iterations=20, lambda_=0.01, alpha=0.05
+A total: 97009, correct: 75181, accuracy: 77.4989949386%
+B total: 97009, correct: 78518, accuracy: 80.9388819594%
+C total: 97009, correct: 76887, accuracy: 79.2575946562%
+D total: 97009, correct: 82846, accuracy: 85.4003236813%
+E total: 97009, correct: 78563, accuracy: 80.985269408%
+F total: 97009, correct: 76620, accuracy: 78.9823624612%
+G total: 97009, correct: 68065, accuracy: 70.1635930687%
+Aggregate all options: total: 97009, correct: 28267, accuracy: 29.1385335381%
+
+rank=20, iterations=20, lambda_=0.01, alpha=0.5
+A total: 97009, correct: 77339, accuracy: 79.7235308064%
+B total: 97009, correct: 78817, accuracy: 81.2471007845%
+C total: 97009, correct: 77600, accuracy: 79.9925780082%
+D total: 97009, correct: 86575, accuracy: 89.2442969209%
+E total: 97009, correct: 80227, accuracy: 82.7005741735%
+F total: 97009, correct: 80128, accuracy: 82.5985217866%
+G total: 97009, correct: 72896, accuracy: 75.1435433826%
+Aggregate all options: total: 97009, correct: 32823, accuracy: 33.8350049995%
+
+rank=20, iterations=20, lambda_=0.01, alpha=1.5
+A total: 97009, correct: 77498, accuracy: 79.8874331248%
+B total: 97009, correct: 79858, accuracy: 82.3201970951%
+C total: 97009, correct: 77498, accuracy: 79.8874331248%
+D total: 97009, correct: 86734, accuracy: 89.4081992392%
+E total: 97009, correct: 79888, accuracy: 82.3511220608%
+F total: 97009, correct: 80822, accuracy: 83.3139193271%
+G total: 97009, correct: 72991, accuracy: 75.2414724407%
+Aggregate all options: total: 97009, correct: 33305, accuracy: 34.3318661155%
+
+rank=20, iterations=20, lambda_=0.05, alpha=1.5
+A total: 97009, correct: 78023, accuracy: 80.4286200249%
+B total: 97009, correct: 83478, accuracy: 86.0518096259%
+C total: 97009, correct: 76883, accuracy: 79.2534713274%
+D total: 97009, correct: 87164, accuracy: 89.8514570813%
+E total: 97009, correct: 81111, accuracy: 83.6118298302%
+F total: 97009, correct: 80323, accuracy: 82.7995340638%
+G total: 97009, correct: 74559, accuracy: 76.8578173159%
+Aggregate all options: total: 97009, correct: 35260, accuracy: 36.3471430486%
+
+rank=20, iterations=20, lambda_=0.5, alpha=1.5
+A total: 97009, correct: 81433, accuracy: 83.9437577957%
+B total: 97009, correct: 86433, accuracy: 89.0979187498%
+C total: 97009, correct: 75598, accuracy: 77.9288519622%
+D total: 97009, correct: 87424, accuracy: 90.1194734509%
+E total: 97009, correct: 87142, accuracy: 89.8287787731%
+F total: 97009, correct: 79604, accuracy: 82.0583657186%
+G total: 97009, correct: 78182, accuracy: 80.5925223433%
+Aggregate all options: total: 97009, correct: 40103, accuracy: 41.3394633488%
+
+rank=20, iterations=20, lambda_=0.8, alpha=1.5
+A total: 97009, correct: 77002, accuracy: 79.3761403581%
+B total: 97009, correct: 81364, accuracy: 83.8726303745%
+C total: 97009, correct: 79214, accuracy: 81.6563411642%
+D total: 97009, correct: 86037, accuracy: 88.6897092022%
+E total: 97009, correct: 85185, accuracy: 87.8114401757%
+F total: 97009, correct: 80634, accuracy: 83.1201228752%
+G total: 97009, correct: 73942, accuracy: 76.2217938542%
+Aggregate all options: total: 97009, correct: 35706, accuracy: 36.8068942057%
+
+rank=20, iterations=20, lambda_=0.3, alpha=1.5
+A total: 97009, correct: 80226, accuracy: 82.6995433413%
+B total: 97009, correct: 86989, accuracy: 89.6710614479%
+C total: 97009, correct: 76495, accuracy: 78.8535084374%
+D total: 97009, correct: 87469, accuracy: 90.1658608995%
+E total: 97009, correct: 79582, accuracy: 82.0356874104%
+F total: 97009, correct: 81033, accuracy: 83.5314249193%
+G total: 97009, correct: 77171, accuracy: 79.5503509984%
+Aggregate all options: total: 97009, correct: 37014, accuracy: 38.1552227113%
+
+rank=30, iterations=20, lambda_=0.5, alpha=1.5
+A total: 97009, correct: 79270, accuracy: 81.7140677669%
+B total: 97009, correct: 86974, accuracy: 89.655598965%
+C total: 97009, correct: 81479, accuracy: 83.9911760764%
+D total: 97009, correct: 88542, accuracy: 91.2719438403%
+E total: 97009, correct: 84818, accuracy: 87.4331247616%
+F total: 97009, correct: 82752, accuracy: 85.3034254554%
+G total: 97009, correct: 79046, accuracy: 81.4831613562%
+Aggregate all options: total: 97009, correct: 43258, accuracy: 44.5917389108%
+
+rank=50, iterations=10, lambda_=0.5, alpha=1.5
+A total: 97009, correct: 79765, accuracy: 82.2243297014%
+B total: 97009, correct: 87235, accuracy: 89.9246461669%
+C total: 97009, correct: 79148, accuracy: 81.5883062396%
+D total: 97009, correct: 89096, accuracy: 91.843024874%
+E total: 97009, correct: 85876, accuracy: 88.5237452195%
+F total: 97009, correct: 82002, accuracy: 84.5303013122%
+G total: 97009, correct: 78066, accuracy: 80.4729458092%
+Aggregate all options: total: 97009, correct: 43072, accuracy: 44.4000041233%
+
+rank=30, iterations=20, lambda_=0.5, alpha=1.0
+A total: 97009, correct: 80263, accuracy: 82.7376841324%
+B total: 97009, correct: 87096, accuracy: 89.7813604923%
+C total: 97009, correct: 81608, accuracy: 84.1241534291%
+D total: 97009, correct: 88508, accuracy: 91.2368955458%
+E total: 97009, correct: 87197, accuracy: 89.8854745436%
+F total: 97009, correct: 83782, accuracy: 86.3651826119%
+G total: 97009, correct: 79064, accuracy: 81.5017163356%
+Aggregate all options: total: 97009, correct: 45862, accuracy: 47.2760259357%
+
+rank=30, iterations=20, lambda_=0.5, alpha=0.8
+A total: 97009, correct: 81401, accuracy: 83.9107711656%
+B total: 97009, correct: 87056, accuracy: 89.7401272047%
+C total: 97009, correct: 83958, accuracy: 86.5466090775%
+D total: 97009, correct: 88642, accuracy: 91.3750270593%
+E total: 97009, correct: 86730, accuracy: 89.4040759105%
+F total: 97009, correct: 83525, accuracy: 86.1002587389%
+G total: 97009, correct: 79051, accuracy: 81.4883155171%
+Aggregate all options: total: 97009, correct: 47722, accuracy: 49.1933738107%
+
+rank=30, iterations=20, lambda_=0.5, alpha=0.5
+A total: 97009, correct: 80841, accuracy: 83.3335051387%
+B total: 97009, correct: 87058, accuracy: 89.7421888691%
+C total: 97009, correct: 84431, accuracy: 87.0341927038%
+D total: 97009, correct: 88849, accuracy: 91.5884093228%
+E total: 97009, correct: 84013, accuracy: 86.603304848%
+F total: 97009, correct: 84172, accuracy: 86.7672071663%
+G total: 97009, correct: 77988, accuracy: 80.3925408983%
+Aggregate all options: total: 97009, correct: 46006, accuracy: 47.4244657712%
+
+rank=40, iterations=20, lambda_=0.5, alpha=0.8
+A total: 97009, correct: 81046, accuracy: 83.5448257378%
+B total: 97009, correct: 87270, accuracy: 89.9607252935%
+C total: 97009, correct: 82350, accuracy: 84.8890309147%
+D total: 97009, correct: 88513, accuracy: 91.2420497067%
+E total: 97009, correct: 86545, accuracy: 89.2133719552%
+F total: 97009, correct: 83973, accuracy: 86.5620715604%
+G total: 97009, correct: 78315, accuracy: 80.7296230247%
+Aggregate all options: total: 97009, correct: 46015, accuracy: 47.4337432609%
+
+rank=40, iterations=20, lambda_=0.1, alpha=0.8
+A total: 97009, correct: 75770, accuracy: 78.106155099%
+B total: 97009, correct: 84550, accuracy: 87.1568617345%
+C total: 97009, correct: 76078, accuracy: 78.4236514138%
+D total: 97009, correct: 86141, accuracy: 88.7969157501%
+E total: 97009, correct: 84640, accuracy: 87.2496366317%
+F total: 97009, correct: 80424, accuracy: 82.9036481151%
+G total: 97009, correct: 75375, accuracy: 77.6989763836%
+Aggregate all options: total: 97009, correct: 35654, accuracy: 36.7532909318%
+
+rank=40, iterations=20, lambda_=0.5, alpha=1.2
+A total: 97009, correct: 81638, accuracy: 84.1550783948%
+B total: 97009, correct: 87112, accuracy: 89.7978538074%
+C total: 97009, correct: 81883, accuracy: 84.4076322815%
+D total: 97009, correct: 89118, accuracy: 91.8657031822%
+E total: 97009, correct: 86428, accuracy: 89.0927645889%
+F total: 97009, correct: 82497, accuracy: 85.0405632467%
+G total: 97009, correct: 78445, accuracy: 80.8636312095%
+Aggregate all options: total: 97009, correct: 45781, accuracy: 47.1925285283%
+
+rank=30, iterations=25, lambda_=0.5, alpha=0.8
+A total: 97009, correct: 80270, accuracy: 82.7448999577%
+B total: 97009, correct: 86960, accuracy: 89.6411673144%
+C total: 97009, correct: 83034, accuracy: 85.5941201332%
+D total: 97009, correct: 88651, accuracy: 91.3843045491%
+E total: 97009, correct: 86165, accuracy: 88.8216557227%
+F total: 97009, correct: 85143, accuracy: 87.7681452236%
+G total: 97009, correct: 78337, accuracy: 80.7523013329%
+Aggregate all options: total: 97009, correct: 46572, accuracy: 48.0079167912%
+
+rank=30, iterations=15, lambda_=0.5, alpha=0.8
+A total: 97009, correct: 79456, accuracy: 81.9058025544%
+B total: 97009, correct: 87065, accuracy: 89.7494046944%
+C total: 97009, correct: 82417, accuracy: 84.9580966714%
+D total: 97009, correct: 88573, accuracy: 91.3038996382%
+E total: 97009, correct: 87196, accuracy: 89.8844437114%
+F total: 97009, correct: 81968, accuracy: 84.4952530178%
+G total: 97009, correct: 79261, accuracy: 81.7047902772%
+Aggregate all options: total: 97009, correct: 45057, accuracy: 46.4462060221%
+
+rank=30, iterations=20, lambda_=0.05, alpha=0.8
+A total: 97009, correct: 75905, accuracy: 78.2453174448%
+B total: 97009, correct: 81141, accuracy: 83.6427547959%
+C total: 97009, correct: 74015, accuracy: 76.2970446041%
+D total: 97009, correct: 85896, accuracy: 88.5443618633%
+E total: 97009, correct: 82361, accuracy: 84.9003700688%
+F total: 97009, correct: 79018, accuracy: 81.4542980548%
+G total: 97009, correct: 73927, accuracy: 76.2063313713%
+Aggregate all options: total: 97009, correct: 32685, accuracy: 33.6927501572%
+
+rank=30, iterations=20, lambda_=0.8, alpha=0.8
+A total: 97009, correct: 78159, accuracy: 80.5688132029%
+B total: 97009, correct: 87192, accuracy: 89.8803203826%
+C total: 97009, correct: 84537, accuracy: 87.143460916%
+D total: 97009, correct: 88983, accuracy: 91.7265408364%
+E total: 97009, correct: 85293, accuracy: 87.9227700523%
+F total: 97009, correct: 83571, accuracy: 86.1476770197%
+G total: 97009, correct: 77432, accuracy: 79.8193982002%
+Aggregate all options: total: 97009, correct: 44636, accuracy: 46.0122256698%

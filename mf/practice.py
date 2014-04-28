@@ -2,12 +2,19 @@ __author__ = 'lan'
 from MatrixFactorization import mf
 import csv
 
-file_path = "/Users/lan/documents/sjsu/239/project/dataset/"
+file_path = "/home/ubuntu/spala/mf/"
 parameters = open(file_path + "parameters.csv", 'Ur')
 reader = csv.reader(parameters, delimiter=',')
 result = open(file_path + "results", 'a')
 
-#nmf = mf(file_path, "train_data.csv", "test_data.csv", "purchase_data.csv")
+## build model from complete dateset including train and test dataset
+#nmf = mf(file_path, "train_data.csv", "purchase_test_data.csv", "purchase_data.csv")
+#nmf = mf(file_path, "train_data.csv", "sample_test_data.csv")
+
+## build model from train dataset
+#nmf = mf(file_path, "purchase_train_data.csv", "purchase_test_data.csv", "purchase_data.csv")
+
+## build model from test dataset
 nmf = mf(file_path, "sample_train_data.csv", "sample_test_data.csv")
 
 for row in reader:

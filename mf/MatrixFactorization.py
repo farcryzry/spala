@@ -38,8 +38,9 @@ class mf:
         """
         train a mf model against the given parameters
         """
-        model = ALS.trainImplicit(self.train_data, rank, iterations, lambda_, blocks, alpha)
-        return model
+#        model = ALS.trainImplicit(self.train_data, rank, iterations, lambda_, blocks, alpha)
+	model = ALS.train(self.train_data, rank, iterations, lambda_) 
+       	return model
 
     def predict(self, model):
         """
@@ -64,11 +65,12 @@ class mf:
 
         correct = eval_by_cid.map(lambda row: row[1]).reduce(add)
         total = self.real_data.count()/7
-        # evaluate accuracy for each option [A:G]
-        for e in eval_by_option.collect():
-            output.write(chr(ord('A') + int(e[0]) - 1) + " total: {0}, correct: {1}, accuracy: {2}%\n".format(total, e[1], e[1]*100.0/total))
 
-        output.write("Aggregate all options: total: {0}, correct: {1}, accuracy: {2}%\n".format(total, correct, correct*100.0/total))
+        # evaluate accuracy for each option [A:G] and output total, correct and accuracy values
+        for e in eval_by_option.collect():
+            output.write(chr(ord('A') + int(e[0]) - 1) + ", {0}, {1}, {2}%\n".format(total, e[1], e[1]*100.0/total))
+
+        output.write("Aggregate, {0}, {1}, {2}%\n".format(total, correct, correct*100.0/total))
 
     def output_predict(self, pred):
         """

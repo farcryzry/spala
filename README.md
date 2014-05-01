@@ -20,6 +20,7 @@ KMeans + KNN (R)
 =====
 
 Preprocess:
+
 1.	Filter out purchase records. (record_type = 1)
 2.	Remove columns: shopping_pt/record_type/day/time/state/location/c_previous/cost
 3.	Combine columns: age_oldest / age_youngest => age_average
@@ -27,10 +28,9 @@ Preprocess:
 5.	Handle missing value:  Risk_factor (use 0)  Duration_previous (use mean value)
 
 Code:
-https://github.com/farcryzry/spala/blob/master/pre-processiong/DataHandler.R
+https://github.com/farcryzry/spala/tree/master/kmeans
 
 Data:
-https://github.com/farcryzry/spala/blob/master/data/train.csv
-
+https://github.com/farcryzry/spala/tree/master/kmeans/data
 
 

@@ -82,18 +82,18 @@ class Normalization:
 
 
 ###tests
-# file_path = "file:/Users/lan/documents/sjsu/239/project/testfile.csv"
-# Normalization(file_path).z_score_norm_col("income").z_score_norm_col("car age").min_max_norm_col("age", 0, 1, 20, 60).save_as_csv("file:/Users/lan/documents/sjsu/239/project/")
+file_path = "file:/Users/lan/documents/sjsu/239/project/testfile.csv"
+Normalization(file_path).z_score_norm_col("income").z_score_norm_col("car age").min_max_norm_col("age", 0, 1, 20, 60).save_as_csv("file:/Users/lan/documents/sjsu/239/project/")
 
 
-file_path = "file:/Users/lan/documents/sjsu/239/project/train.csv"
-Normalization(file_path) \
-    .z_score_norm_col("age_oldest") \
-    .z_score_norm_col("age_youngest") \
-    .min_max_norm_col("group_size", 0, 1, 1) \
-    .min_max_norm_col("car_age", 0, 1, 0) \
-    .min_max_norm_col("duration_previous", 0, 1, 0) \
-    .z_score_norm_col("cost") \
-    .save_as_csv("file:/Users/lan/documents/sjsu/239/project/")
+# file_path = "file:/Users/lan/documents/sjsu/239/project/train.csv"
+# Normalization(file_path) \
+#     .z_score_norm_col("age_oldest") \
+#     .z_score_norm_col("age_youngest") \
+#     .min_max_norm_col("group_size", 0, 1, 1) \
+#     .min_max_norm_col("car_age", 0, 1, 0) \
+#     .min_max_norm_col("duration_previous", 0, 1, 0) \
+#     .z_score_norm_col("cost") \
+#     .save_as_csv("file:/Users/lan/documents/sjsu/239/project/")
 
 print "end"

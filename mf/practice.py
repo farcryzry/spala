@@ -1,4 +1,8 @@
 __author__ = 'lan'
+#
+# Here is where to do the experiments with different data sets and training model.
+# Read parameters from a file and run multiple experiments in sequence.
+#
 from MatrixFactorization import mf
 import csv
 
@@ -16,6 +20,7 @@ result = open(file_path + "results", 'a')
 nmf = mf(file_path, "train_data_fill_missing.csv", "sample_test_data.csv")
 
 ## build model from train dataset
+#nmf = mf(file_path, "purchase_train_data.csv", "purchase_test_data.csv", "purchase_data.csv")
 #nmf = mf(file_path, "purchase_train_data_fill_missing.csv", "purchase_test_data.csv", "purchase_data.csv")
 
 ## build model from test dataset
@@ -33,6 +38,7 @@ for row in reader:
     
 #    nmf.evaluate(pred, result)
     nmf.output_predict(pred)
+    pred.unpersist()
 
 parameters.close()
 result.close()

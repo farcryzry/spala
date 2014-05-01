@@ -3,33 +3,6 @@ from pyspark import SparkContext, SparkConf
 from operator import add
 
 
-# def pre_map(x):
-#     global header
-#     record = x.split(',')
-#     key = record[0]
-#     value = record[1:]
-#
-#     return (key, value)
-#
-# def createListCombiner(x):
-#     return map(lambda x:[x.encode('ascii','ignore')], x)
-#
-# def mergeListValue(xs, x):
-#     xs[0][0] = max(int(xs[0][0]), int(x[0][0]))
-#     for i in range(1, len(x), 1):
-#         if x[i] not in xs[i]:
-#             xs[i].append(x[i].encode('ascii','ignore'))
-#     return xs
-#
-# def mergeListCombiners(a, b):
-#     result = []
-#     result.append([max(int(a[0][0]), int(b[0][0]))])
-#     for i in range(1, len(a), 1):
-#         set1 = set(a[i])
-#         set2 = set(b[i])
-#         result.append(list(set1.union(set2)))
-#     return result
-
 def flat(line):
     """
     convert record "cid, op1_value, op2_value..." to [((cid,11), 1), ((cid, 22), 1)...]

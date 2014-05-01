@@ -34,13 +34,16 @@ class mf:
             self.real_data = sc.textFile("file:" + self.file_path + real_file).cache()\
                 .map(lambda line: [float(x) for x in line.split(',')]).map(lambda r: ((r[0], r[1]), r[2]))
 
-    def train(self,  rank=3, iterations=20, lambda_=0.01, alpha=0.01, blocks=-1):
+    def train(self, rank=3, iterations=20, lambda_=0.01, alpha=None, blocks=-1):
         """
         train a mf model against the given parameters
         """
-#        model = ALS.trainImplicit(self.train_data, rank, iterations, lambda_, blocks, alpha)
-	model = ALS.train(self.train_data, rank, iterations, lambda_) 
-       	return model
+        if alpha:
+            model = ALS.trainImplicit(self.train_data, rank, iterations, lambda_, blocks, alpha)
+        else:
+            model = ALS.train(self.train_data, rank, iterations, lambda_)
+
+        return model
 
     def predict(self, model):
         """

@@ -9,10 +9,17 @@ Data Visulization
 =====
 https://github.com/farcryzry/spala/commit/cb126c86a4efe3c4ace6d824d889c3b915cf2563
 
-
-
-Preprocessing (R)
+Regression (Java + Spark)
 =====
+
+Matrix Factorization (Python + Spark)
+=====
+
+
+KMeans + KNN (R)
+=====
+
+Preprocess:
 1.	Filter out purchase records. (record_type = 1)
 2.	Remove columns: shopping_pt/record_type/day/time/state/location/c_previous/cost
 3.	Combine columns: age_oldest / age_youngest => age_average
@@ -22,16 +29,8 @@ Preprocessing (R)
 Code:
 https://github.com/farcryzry/spala/blob/master/pre-processiong/DataHandler.R
 
-Input Data:
+Data:
 https://github.com/farcryzry/spala/blob/master/data/train.csv
 
-Output Data:
-https://github.com/farcryzry/spala/tree/master/data/preprocessed%20by%20r
-
-Preprocessing (Java)
-=====
-
-Predection (Spark)
-=====
 
 

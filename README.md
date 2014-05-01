@@ -9,6 +9,8 @@ Data Visulization
 =====
 https://github.com/farcryzry/spala/commit/cb126c86a4efe3c4ace6d824d889c3b915cf2563
 
+https://github.com/farcryzry/spala/commit/2753caa7e2903135c6db6eb90e970217a3422069
+
 Regression (Java + Spark)
 =====
 
